@@ -2,9 +2,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-.text-praymery{
-    color: #FD6E0A;
- }
+
 .btn-praymery{
     background-color: #FD6E0A;
     border: 0;
@@ -14,6 +12,12 @@ body{
     font-weight: 700;
     padding: 16px 35px;
     color:#fff;
+    transition: 1.2s;
+}
+.btn-praymery:hover{
+    background-color: #FFF;
+    border: 2px solid #FD6E0A;
+    color:#FD6E0A;
 }
 
 .section-taitle{
@@ -38,11 +42,26 @@ nav{
     justify-content: space-between;
     margin: 0 200px;
 }
+
 .nav-title{
     font-size: 45px;
     font-weight: 800;
     color: #181818;
+    transition: all 0.8s;
 }
+.logo:hover .nav-title{
+    color:#FD6E0A;
+  }
+
+.logo-span{
+    color: #FD6E0A;
+    transition: all 0.8s;
+ }
+.logo:hover .logo-span{
+    color:#181818;
+ }
+
+
 nav >ul{
     display: flex;
     align-items: center;
@@ -106,6 +125,7 @@ nav a{
     padding: 16px 35px;
     color:#FD6E0A; 
     outline: none;
+    transition: 1.2s;
 }
 .btn-secondery:hover{
     background-color: #FD6E0A;
@@ -118,6 +138,9 @@ nav a{
 main{
     max-width: 1240px;
     margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
 }
 .about{
     padding:130px;
@@ -151,10 +174,40 @@ main{
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.6);
-  
+  transition: 0.8s;
+}
+.skil:hover{
+    transform: translateY(-10px);
 }
 .skill-disc{
     font-size: 18px;
     color:#474747;
     font-weight: 400;
+}
+
+/*-----------resume section-----------*/
+.resume-container{
+    display: flex;
+    gap:50px;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-item-inst, .resume-itms-disc{
+    color:#474747;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    color:#474747;
+    margin-bottom: 20px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.cv-btn{
+    margin: 40px 0;
+    text-align: center;
 }
