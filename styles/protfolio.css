@@ -16,7 +16,18 @@ body{
     color:#fff;
 }
 
-
+.section-taitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color:#181818;
+}
+.section-disc{
+    text-align: center;
+    font-size: 18px;
+    color:#474747;
+    font-weight: 400;
+}
 
 
 /*------------nav related style-------------*/
@@ -103,4 +114,26 @@ nav a{
 
 }
 
-
+/*-----------main---------------*/
+main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.about{
+    padding:130px;
+    border: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;  
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-size: 18px;
+    color:#474747;
+    font-weight: 400;
+}
